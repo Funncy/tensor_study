@@ -43,3 +43,4 @@ with tf.Session() as sess:
     h, c, a = sess.run([hypothesis, predicted, accuracy], feed_dict={X: x_data, Y: y_data})
 
     print("\n Hypothesis: ", h, "\n Correct (Y): ", c, "\n Accuracy: ", a)
+
